@@ -1,0 +1,208 @@
+
+#site{
+    width: 101%;
+    height: auto;
+    margin-right: -10px;
+    margin-left: -10px;
+    margin-top: -10px;
+}
+
+.header{
+    background-color: #7159c1;
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: 20% 30% 50%;
+}
+.header-menu {
+    max-width: 100%;
+    height: 120px;
+    background-color: #7159c1;
+    display: grid;
+    margin: 0 center;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+
+.menu{
+    margin: 5px ;
+    background: rgb(248, 247, 246);
+    opacity: 50%;
+    text-align: center;
+    font-family: Verdana;
+    font-size: 22px;
+    align-self: center;
+    
+}
+
+.hero{
+
+    width:  100%;
+    height: 700px ;
+    background-image: url(/Aula-Css/ex002/CCBC6.jpeg);
+    background-attachment: fixed;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    align-items:center;
+   
+
+}
+
+
+.sub
+{
+    color: white;
+    font-size: 20px;
+    text-shadow: 2px 2px #c80ef6;
+    font-family: Tahoma;
+    margin-top: -15%;
+    margin-left: 10%;
+}
+#titsite {
+
+    color: white;
+    font-size: 80px;
+    text-shadow: 2px 2px #c80ef6;
+    font-family: Verdana;
+
+}
+
+.right {
+
+    border-radius: 5px;
+    margin-top: 100px;
+    
+}
+
+.bt {
+    border-radius:4px;
+    display:inline-block;
+    cursor:pointer;
+    font-family:Verdana;
+    font-weight:bold;
+    padding:6px 10px;
+    text-decoration:none;
+    } 
+    
+    
+    /*.bt-vm {
+    border-color:#f61f0e;
+    background:linear-gradient(to bottom, #a1fca9 5%, #0ba339 100%);
+    box-shadow:inset 0px 1px 0px 0px #fff4f3;
+    color:#fff;
+    text-shadow:0px 1px 0px #528009; 
+    font-size: 35px;
+    }
+    
+    .bt-vm:hover {
+    background:linear-gradient(to bottom, #06a729 5%, #a1fca9 100%);
+    }
+    */
+    .bt:active {
+    position:relative;
+    top:2px;}
+     
+.escopo{
+    background-color: rgb(150, 52, 214);
+    border-radius: 20px;
+    height: 600px;
+    width: 95%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px,auto));
+    margin-top: -30px;
+    align-items: center;
+}
+
+#quemsomos{
+    color: white;
+    font-size: 20px;
+    padding: 50px  ;
+    text-shadow: 2px 2px #c80ef6;
+    font-family: Tahoma;
+    margin-right: 0px;
+    text-align: justify;
+    
+
+}
+
+.imgquemsomos img{
+    
+    
+    border-radius: 20px;
+    border-left-style:solid;
+    margin-left: -30px;
+    
+}
+
+.mkt{
+    height: 700px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px,auto));
+    margin: 0 auto;
+    font-family: Verdana;
+    font-size: 22px;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px #c80ef6;
+    align-items: initial;
+
+
+    
+
+
+
+}
+
+
+#conteudo-left{
+   
+    
+    /*Novamente definimos a largura da div*/
+  /* altura da div */
+  height:500px;
+  /* O atributo Float é utilizado para fazermos o nosso bloco(div)
+  literalmente flutue e se posicione onde queremos na página,
+  quando escolhemos left, dizemos que esse bloco irá se posicionar na
+  parte esquerda da página */
+  /* Cor de fundo da div */
+  background-color:rgb(218, 121, 31);
+  border-radius: 10px;
+  margin-top: -50px;
+}
+
+#conteudo-center{
+    border-radius: 10px;
+    /*Novamente definimos a largura da div*/
+  /* altura da div */
+  height:550px;
+  /* O atributo Float é utilizado para fazermos o nosso bloco(div)
+  literalmente flutue e se posicione onde queremos na página,
+  quando escolhemos left, dizemos que esse bloco irá se posicionar na
+  parte esquerda da página */
+  /* Cor de fundo da div */
+  background-color:rgb(25, 0, 255);
+  margin-top: 40px;
+}
+
+#conteudo-right{
+    border-radius: 15px;
+    /*Novamente definimos a largura da div*/
+  /* altura da div */
+  height:600px;
+  /* O atributo Float é utilizado para fazermos o nosso bloco(div)
+  literalmente flutue e se posicione onde queremos na página,
+  quando escolhemos left, dizemos que esse bloco irá se posicionar na
+  parte esquerda da página */
+  /* Cor de fundo da div */
+  background-color:rgb(255, 196, 0);
+  margin-top: 120px;
+}
+
+.video{
+    height: 700px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+    font-size: 50px;
+    text-align: center;
+}
